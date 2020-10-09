@@ -72,4 +72,5 @@ fisher.test(table1)
 
 We reject the Null hypothesis, per the barchartGC it states that there is a difference between the infected and treatment that was given the drug vs the placebo.  
 
+
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
