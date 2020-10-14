@@ -44,7 +44,7 @@ barchartGC(~infected + treatment,data=triUmpF, type="percent")
 
 ```
   
-The bar chart shows that taking the drug vs the placebo may have no effect.  
+Among the women who contracted AIDs a greater percentage of them of them had the vaccine. This suggest the vaccine may have the opposite effect of what we expected. 
 
 ### Numerical Descriptive Results
 
@@ -55,6 +55,7 @@ table1 <- xtabs(~infected + treatment,data=triUmpF)
 rowPerc(table1)
 colPerc(table1)
 ```
+
 
 ## Inferential Results
 
@@ -70,7 +71,7 @@ fisher.test(table1)
 # Discussion and Conclusion
 
 
-We reject the Null hypothesis, per the barchartGC it states that there is a difference between the infected and treatment that was given the drug vs the placebo.  
+We reject the Null hypothesis, per the barchartGC it states that there is a difference between the infected and treatment that was given the drug vs the placebo.  That the females that were given the drug are more likely to get AIDs. The Fisher states that there is 1 1/2 percent chance in females getting AIDs when taking the drug.  
 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
